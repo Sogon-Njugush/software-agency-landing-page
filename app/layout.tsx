@@ -9,7 +9,7 @@ const font = Rajdhani({
 });
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "software Blog",
   description: "Next Js Blog",
 };
 
