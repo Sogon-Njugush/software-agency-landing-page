@@ -75,3 +75,34 @@ export const ServicesList = [
       "Get tailored nutrition advice for both pregnancy and baby care stages.",
   },
 ];
+
+export const AboutInfoList = [
+  {
+    id: 1,
+    image: "/images/a1.png",
+    title: "Pregnancy Tracker",
+    description:
+      "Track your pregnancy week by week with health tips and baby development insights.",
+  },
+  {
+    id: 2,
+    image: "/images/a2.png",
+    title: "Baby Health Monitor",
+    description:
+      "Monitor your baby’s health including weight, sleep, and growth milestones.",
+  },
+  {
+    id: 3,
+    image: "/images/a3.png",
+    title: "Vaccination Schedule",
+    description:
+      "Get reminders and details on upcoming vaccinations for your child.",
+  },
+  {
+    id: 4,
+    image: "/images/a4.png",
+    title: "Appointment Management",
+    description:
+      "Easily book and manage doctor appointments during pregnancy and beyond.",
+  },
+];
