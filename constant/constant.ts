@@ -1,3 +1,5 @@
+import { FaPhoneVolume, FaRegFileCode } from "react-icons/fa";
+import { FaDiamond } from "react-icons/fa6";
 export const NavLinks = [
   {
     id: 1,
@@ -104,5 +106,28 @@ export const AboutInfoList = [
     title: "Appointment Management",
     description:
       "Easily book and manage doctor appointments during pregnancy and beyond.",
+  },
+];
+
+export const whyChooseList = [
+  {
+    id: 1,
+    icon: FaRegFileCode,
+    title: "Free Intergation",
+    description:
+      "We have a team of experienced developers who are passionate about creating innovative software solutions that meet the needs of our clients.",
+  },
+  {
+    id: 2,
+    icon: FaDiamond,
+    title: "Premium Resources",
+    description: "We have premium resources to help you with your project.",
+  },
+  {
+    id: 3,
+    icon: FaPhoneVolume,
+    title: "24/7 Support",
+    description:
+      "We have a team of experienced developers who are passionate about creating innovative software solutions that meet the needs of our clients.",
   },
 ];
