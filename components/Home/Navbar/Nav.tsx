@@ -1,4 +1,5 @@
 "use client";
+import ThemeToogler from "@/components/Helper/ThemeToogler";
 import { NavLinks } from "@/constant/constant";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -61,6 +62,7 @@ const Nav = ({ openNav }: Props) => {
             <span className="relative z-10">Create Account</span>
           </a>
           {/* Theme toggler */}
+          <ThemeToogler />
           {/* Burger menu */}
           <HiBars4
             onClick={openNav}
