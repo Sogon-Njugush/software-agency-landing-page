@@ -131,3 +131,27 @@ export const whyChooseList = [
       "We have a team of experienced developers who are passionate about creating innovative software solutions that meet the needs of our clients.",
   },
 ];
+
+export const SoftwareList = [
+  {
+    id: 1,
+    image: "/images/i1.png",
+    title: "Pregnancy Tracker",
+    description:
+      "Track your pregnancy week by week with health tips and baby development insights.",
+  },
+  {
+    id: 2,
+    image: "/images/i2.png",
+    title: "Baby Health Monitor",
+    description:
+      "Monitor your baby’s health including weight, sleep, and growth milestones.",
+  },
+  {
+    id: 3,
+    image: "/images/i3.png",
+    title: "Vaccination Schedule",
+    description:
+      "Get reminders and details on upcoming vaccinations for your child.",
+  },
+];
