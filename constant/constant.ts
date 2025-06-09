@@ -182,3 +182,66 @@ export const ProjectImageList = [
     image: "/images/p6.png",
   },
 ];
+
+export const ReviewList = [
+  {
+    id: 1,
+    image: "/images/c1.png",
+    title: "Pregnancy Tracker",
+    userName: "Jane Doe",
+    role: "Mother",
+    description:
+      "Track your pregnancy week by week with health tips and baby development insights.",
+  },
+  {
+    id: 2,
+    image: "/images/c2.png",
+    title: "Baby Health Monitor",
+    userName: "John Doe",
+    role: "Father",
+    description:
+      "Monitor your baby`s health including weight, sleep, and growth milestones.",
+  },
+  {
+    id: 3,
+    image: "/images/c3.png",
+    title: "Vaccination Schedule",
+    userName: "Jane Doe",
+    role: "Mother",
+    description:
+      "Get reminders and details on upcoming vaccinations for your child.",
+  },
+  {
+    id: 4,
+    image: "/images/c4.png",
+    title: "Vaccination Schedule",
+    userName: "Jane Doe",
+    role: "Mother",
+    description:
+      "Get reminders and details on upcoming vaccinations for your child.",
+  },
+];
+
+export const BlogList = [
+  {
+    id: 1,
+    image: "/images/b1.png",
+    title: "Pregnancy Tracker",
+    description:
+      "Track your pregnancy week by week with health tips and baby development insights.",
+  },
+  {
+    id: 2,
+    image: "/images/b2.png",
+    title: "Baby Health Monitor",
+    description:
+      "Monitor your baby`s health including weight, sleep, and growth milestones.",
+  },
+  {
+    id: 3,
+    image: "/images/b3.png",
+    title: "Vaccination Schedule",
+    description:
+      "Get reminders and details on upcoming vaccinations for your child.",
+  },
+];
