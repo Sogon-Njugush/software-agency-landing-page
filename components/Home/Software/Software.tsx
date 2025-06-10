@@ -21,11 +21,13 @@ const Software = () => {
           // mapping cards
           SoftwareList.map((item) => (
             <div key={item.id}>
-              <SoftwareCard
-                image={item.image}
-                title={item.title}
-                description={item.description}
-              />
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <SoftwareCard
+                  image={item.image}
+                  title={item.title}
+                  description={item.description}
+                />
+              </div>
             </div>
           ))
         }

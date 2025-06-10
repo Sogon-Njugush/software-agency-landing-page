@@ -22,7 +22,9 @@ const Blog = () => {
           // mapping cards
           BlogList.map((item) => (
             <div key={item.id}>
-              <BlogCard image={item.image} title={item.title} />
+              <div data-aos="fade-right" data-aos-delay="100">
+                <BlogCard image={item.image} title={item.title} />
+              </div>
             </div>
           ))
         }

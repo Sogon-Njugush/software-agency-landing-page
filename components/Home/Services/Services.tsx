@@ -28,11 +28,13 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
           {ServicesList.map((service) => (
             <div key={service.id}>
-              <ServiceCard
-                image={service.image}
-                title={service.title}
-                description={service.description}
-              />
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <ServiceCard
+                  image={service.image}
+                  title={service.title}
+                  description={service.description}
+                />
+              </div>
             </div>
           ))}
         </div>

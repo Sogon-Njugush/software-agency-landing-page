@@ -30,7 +30,12 @@ const Project = () => {
             // mapping images
             ProjectImageList.map((item) => (
               <div key={item.id}>
-                <ProjectCard image={item.image} />
+                <div
+                  data-aos="zoom-in"
+                  data-aos-anchor-placement="top-center"
+                  data-aos-delay="100">
+                  <ProjectCard image={item.image} />
+                </div>
               </div>
             ))
           }
